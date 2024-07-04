@@ -1,72 +1,76 @@
 #Rock
 {
-    background-color: cornflowerblue;
-    color:rgb(255, 217, 5);
+    background-color:  #373A40;;
+    color:#DC5F00;
     font-size: large;
     border-radius: 7px;
     font-weight: bold;
     padding: 10px;
     margin: 10px;
-    width: 200px;
-    font-size: 30px;
+    width: 85px;
+    border-radius: 25px;
+    font-size: 37px;
         font-family: 'Times New Roman', Times, serif;
     
 }
 #Paper
 {
-    background-color: cornflowerblue;
-    color:rgb(255, 217, 5);
+    background-color:  #373A40;;
+    color:#DC5F00;
     font-size: large;
     border-radius: 7px;
     font-weight: bold;
     padding: 10px;
     margin: 10px;
-    width: 200px;
-    font-size: 30px;
+    width: 85px;
+    border-radius: 25px;
+    font-size: 37px;
     font-family: 'Times New Roman', Times, serif;
 }
 #Scissors
 {
-    background-color: cornflowerblue;
-    color:rgb(255, 217, 5);
+    background-color:  #373A40;;
+    color:#DC5F00;
     font-size: large;
     border-radius: 7px;
     font-weight: bold;
     padding: 10px;
     margin: 10px;
-    width: 200px;
-    font-size: 30px;
+    width: 85px;
+    border-radius: 25px;
+    font-size: 37px;
     font-family: 'Times New Roman', Times, serif;
 }
 #Rock:hover
 {
-    background-color: rgb(255, 217, 5);
-    color: cornflowerblue;
+    background-color:   #DC5F00;
+    color:#373A40;
 }
 #Paper:hover
 {
-    background-color: rgb(255, 217, 5);
-    color: cornflowerblue;
+    background-color:   #DC5F00;
+    color:#373A40;
 }
 #Scissors:hover
 {
-    background-color: rgb(255, 217, 5);
-    color: cornflowerblue;
+    background-color:   #DC5F00;
+    color:#373A40;
 }
 
 #computerChoice
 {
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 30px;
+    
     
 }
 #HumanChoice
 {
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
     text-align: center;
     margin-top: 20px;
@@ -74,8 +78,8 @@
 }
 #result
 {
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
     text-align: center;
     margin-top: 40px;
@@ -83,20 +87,42 @@
 #score
 {
 
-    font-size: 30px;
+    font-size: 26px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 30px;
+   
+ 
 }
 .game
 {
+    font-size: 26px;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
-   
+    color : #404246;
 }
 *{
     text-align: center;
-    
+}
+body
+{
+    background-color: #eeeeee;
+}
+#Reset
+{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    background-color: #373A40;
+    color: #DC5F00;
+    border-radius: 25px;
+    padding: 10px;
+}
+#Reset:hover
+{
+    background-color: #DC5F00;
+    color: #373A40;
 }

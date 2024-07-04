@@ -9,15 +9,20 @@
 </head>
 <body>
     <h1 class="game">Rock-Paper-Scissors</h1>
-   
-    <button id="Rock" onclick="playRound('rock')">Rock</button>
-    <button id="Paper" onclick="playRound('paper')" >Paper</button>
-    <button id="Scissors" onclick="playRound('scissors')">Scissors</button>
-<div id="computerChoice">Computer Choice =</div>
-<div id="HumanChoice">Human Choice =</div>
+   <div id="CC"> 
+    <button id="Rock" onclick="playRound('rock')"> 🪨 </button>
+    <button id="Paper" onclick="playRound('paper')" > 📄 </button>
+    <button id="Scissors" onclick="playRound('scissors')"> ✂️  </button>
+</div>
+<div id="computerChoice">Computer Choice:</div>
+<div id="HumanChoice">Human Choice:</div>
 
-    <div id="result">Result Is =</div>
-    <div id="score">Human: 0 - Computer: 0</div>
+    <div id="result">Result Is:</div>
+    <div id="resetMassage"></div>
+    <div id="score">Human: 0 
+        <br>Computer: 0</div>
+    <button id="Reset" onclick="resetGame()">Reset Game</button>
+    
 
   
 </body>
